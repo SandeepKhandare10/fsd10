@@ -11,6 +11,18 @@ public class switch_01 {
             break;
             case 3:System.out.println("RAM-RAM");
             break;
+            case 1:System.out.println("hello");
+            break;
+            case 2:System.out.println("namaste");
+            break;
+            case 3:System.out.println("RAM-RAM");
+            break;
+            case 1:System.out.println("hello");
+            break;
+            case 2:System.out.println("namaste");
+            break;
+            case 3:System.out.println("RAM-RAM");
+            break;
             default:System.out.println("Invalid button");
 
         }
