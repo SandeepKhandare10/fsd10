@@ -8,7 +8,7 @@ public class QueFsd03 {
         if(marks<100){
             System.out.println("Plase Enter Valid number");
         }
-        if (marks<=91 && marks>=100){
+        if (marks<=91 && marks<=100){
             System.out.println("Your Gred is A+");
         }
         else if(marks>=81 && marks<=90){
