@@ -9,16 +9,16 @@ public class QueFsd05 {
 //        If the book is returned within 7 days of the due date, there is no fine.
 //                If the book is returned between 8 and 30 days after the due date, the fine is $1.00 per day.
 //        If the book is returned more than 30 days after the due date, the fine is $2.00 per day
-        Scanner sc=new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
         System.out.print("Enter Due Day : ");
         int dueDay = sc.nextInt();
 
         if (dueDay <= 7) {
             System.out.println("No fine");
-        }else if(dueDay >8 && dueDay<30){
+        } else if (dueDay >= 8 && dueDay <= 30) {
             System.out.println("Fine is " + (dueDay - 7));
         } else if (dueDay > 30) {
-            System.out.println("Fine is " + (dueDay-7) * 2);
+            System.out.println("Fine is " + (dueDay - 7) * 2);
         }
     }
 }
